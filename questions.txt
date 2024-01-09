@@ -1,0 +1,81 @@
+1.What is Object-Oriented Programming, and how does it differ from procedural programming?
+
+Object-oriented programming can be defined as a programming model which is based upon the concept of objects. Objects contain data in the form of attributes and code in the form of methods. In object-oriented programming, computer programs are designed using the concept of objects that interact with the real world
+
+Object-oriented programming follows a bottom-up approach.
+
+Adding new data and function is easy.
+
+Overloading is possible in object-oriented programming.
+
+Object-oriented programming is based on the real world.
+
+Code reusability present in object-oriented programming.
+
+Examples: C++, Java, Python, C#, etc
+
+
+
+
+
+2.Explain the principles of OOP and how they are implemented in Python.
+Describe the concepts of encapsulation, inheritance, and polymorphism in Python.
+
+Explain the principles of OOP are  abstraction,encapsulation, inheritance, and polymorphism
+
+abstraction:showing the hiding the unnessary details and showing the essential details is know as abstartion 
+
+
+encapsulation:wrapping of data memebers and data function in a single unit is as encapsulation 
+
+
+inhertitance:extracting the properties ofchild class to parent class is know as inhertance  
+
+
+polymorphism:single intity having a multiple forms is known as polymorphism
+
+
+3.What is the purpose of the self keyword in Python class methods?
+
+Self represents the instance of the class. By using the “self”  we can access the attributes and methods of the class in Python. It binds the attributes with the given arguments. The reason you need to use self. is because Python does not use the @ syntax to refer to instance attributes.
+
+
+4.How does method overriding work in Python, and why is it useful?
+
+Method overriding is an ability of any object-oriented programming language that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.
+
+
+
+5.What is the difference between class and instance variables in Python?
+
+Class Variable: It is basically a static variable that can be declared anywhere at class level with static. Across different objects, these variables can have only one value. These variables are not tied to any particular object of the class, therefore, can share across all objects of the class. 
+
+Instance Variable: It is basically a class variable without a static modifier and is usually shared by all class instances. Across different objects, these variables can have different values. They are tied to a particular object instance of the class, therefore, the contents of an instance variable are totally independent of one object instance to others. 
+
+6.Discuss the concept of abstract classes and how they are implemented in Python.
+
+
+An abstract class can be considered a blueprint for other classes. It allows you to create a set of methods that must be created within any child classes built from the abstract class.
+
+7.Explain the importance of the super() function in Python inheritance.
+
+At a fairly abstract level, super() provides the access to those methods of the super-class (parent class) which have been overridden in a sub-class (child class) that inherits from it. Consider the code example given below, here we have a class named Square and an another class named Cube which inherits the class Square. 
+
+8.How does Python support multiple inheritance, and what challenges can arise from it?
+
+Inheritance is the mechanism to achieve the re-usability of code as one class(child class) can derive the properties of another class(parent class). It also provides transitivity ie. if class C inherits from P then all the sub-classes of C would also inherit from P.
+
+
+
+9.What is a decorator in Python, and how can it be used in the context of OOP?
+
+Decorators are a very powerful and useful tool in Python since it allows programmers to modify the behaviour of a function or class. Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it.
+
+10 What do you understand by Descriptive Statistics? Explain by Example.
+
+In Descriptive statistics, we are describing our data with the help of various representative methods using charts, graphs, tables, excel files, etc
+
+11 What do you understand by Inferential Statistics? Explain by Example
+
+inferential statistics help you come to conclusions and make predictions based on your data.
+ inferential statistics to understand the larger population from which the sample is taken.
